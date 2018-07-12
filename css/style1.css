@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#top {
+    height: 40px;
+    line-height: 40px;
+    margin: 50px auto 0;
+    border-bottom: 2px solid #f40;
+    color: #333;
+    font-size: 16px;
+}
+
+#top ul li a {
+    display: block;
+    padding: 0 20px;
+}
+
+#top ul li a:hover {
+    background: #f40;
+    color: white;
+}
+
+.select {
+    background: #f40;
+    color: white;
+}
+
+#main {
+    padding: 10px 0 0px 0;
+    margin: 10px auto;
+}
+
+.box_top {
+    margin: 30px 0;
+    border: 1px solid #e8e8e8;
+}
+
+#main .box {
+    display: none;
+}
+
+.content_1 {
+    position: relative;
+    border-bottom: 1px dashed #dedede;
+    padding: 8px 0;
+}
+
+.content_1:last-child {
+    border-bottom: none;
+}
+
+.con_left {
+    position: absolute;
+    left: 19px;
+    top: 14px;
+    color: #999;
+    font-size: 14px;
+}
+
+.con_middle {
+    padding: 0 100px 0 112px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.con_middle a {
+    padding: 0 8px;
+    margin: 2px 40px 11px 0;
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.con_middle a:hover {
+    color: #f40;
+}
+
+.con_right a:hover {
+    color: #f40;
+}
+
+.con_right {
+    position: absolute;
+    right: 19px;
+    top: 14px;
+    font-size: 12px;
+    color: #333;
+}
+
+.hei {
+    height: auto;
+}
+
+.sq {
+    display: none;
+}
+
+.sq1 {
+    display: block;
+}
+
+.xl {
+    display: none;
+}
+
+.lists {
+    background: url(../image/lists.png) no-repeat 5px 6px;
+    background-size: 11px 7px;
+    padding-right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+}
+
+.listx {
+    background: url(../image/listx.png) no-repeat 5px 6px;
+    background-size: 11px 7px;
+    padding-right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+}
+
+@media screen and (max-width:1000px) {
+    #top {
+        width: 1000px;
+    }
+    #main {
+        width: 998px;
+    }
+    #section {
+        width: 998px;
+    }
+}
+
+@media screen and (max-width:1349px) and (min-width:1001px) {}
+
+@media screen and (min-width:1350px) {
+    #top {
+        width: 1350px;
+    }
+    #main {
+        width: 1348px;
+    }
+    #section {
+        width: 1348px;
+    }
+}
+
+#main .active {
+    display: block;
+}
+
+
+/*section*/
+
+#section {
+    width: 100%;
+    padding: 20px 0;
+}
+
+#sec_top {
+    width: 100%;
+    height: 60px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.sec_topl {
+    width: 2%;
+    height: 30px;
+    float: left;
+    margin-top: 12px;
+}
+
+.sec_ul {
+    float: left;
+    margin-left: 5px;
+    width: 97%;
+}
+
+#sec_top ul li a {
+    display: block;
+    padding: 0px 20px;
+}
+
+.sec_active a {
+    color: #f56293;
+    border-bottom: 2px solid #f56293;
+}
+
+.sec_box table {
+    border-collapse: collapse;
+    font-size: 12px;
+    text-align: center;
+}
+
+.sec_box table tr th {
+    border-bottom: none;
+    background: #999;
+    color: white;
+    line-height: 30px;
+}
+
+.sec_box table tr td {
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: text-top;
+}
+
+.sec_box table tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+.sec_box table tr th:nth-child(1) {
+    width: 5%;
+}
+
+.sec_box table tr th:nth-child(2) {
+    width: 25%;
+    text-align: left;
+}
+
+.sec_box table tr td:nth-child(2) {
+    width: 10%;
+    text-align: left;
+}
+
+.sec_box table tr th:nth-child(3) {
+    width: 10%;
+}
+
+.sec_box table tr th:nth-child(4) {
+    width: 10%;
+}
+
+.sec_box table tr th:nth-child(5) {
+    width: 25%;
+}
+
+.sec_box table tr th:nth-child(6) {
+    width: 15%;
+}
+
+.sec_boxx {
+    width: 60%;
+    height: 6px;
+    background: #f56293;
+}
+
+.sec_boxs {
+    background: url(../image/list_top.png) no-repeat 10px;
+    display: inline-block;
+    width: 8px;
+    height: 13px;
+    padding-right: 10px;
+}
+
+.sec_img {
+    display: none;
+}
+
+#tbody tr:hover .sec_img {
+    display: block;
+}
+
+.sec_box a:hover {
+    color: #f40;
+    text-decoration: underline;
+}
+
+.hr {
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+    margin-top: -2px
+}
+
+#nav_top2 .second_tab>li.oactive {
+    color: #0dc3ce;
+    border-bottom: 2px solid #0dc3ce;
+}
+
+.sec_boxx2 {
+    background: #0dc3ce;
+}
+
+.nav_t2 .sec_boxx {
+    background: #0dc3ce;
+}
+
+#nav_top3 .second_tab>li.oactive {
+    color: #aa72d2;
+    border-bottom: 2px solid #aa72d2;
+}
+
+.sec_boxx3 {
+    background: #aa72d2;
+}
+
+.nav_t3 .sec_boxx {
+    background: #aa72d2;
+}
+
+#nav_top5 .second_tab>li.oactive {
+    color: #97b921;
+    border-bottom: 2px solid #97b921;
+}
+
+.sec_boxx5 {
+    background: #97b921;
+}
+
+.nav_t5 .sec_boxx {
+    background: #97b921;
+}
+
+#nav_top6 .second_tab>li.oactive {
+    color: #b58571;
+    border-bottom: 2px solid #b58571;
+}
+
+.sec_boxx6 {
+    background: #b58571;
+}
+
+.nav_t6 .sec_boxx {
+    background: #b58571;
+}
+
+#nav_top8 .second_tab>li.oactive {
+    color: #52a0ea;
+    border-bottom: 2px solid #52a0ea;
+}
+
+.sec_boxx8 {
+    background: #52a0ea;
+}
+
+.nav_t8 .sec_boxx {
+    background: #52a0ea;
+}
+
+h2 {
+    line-height: 100px;
+}
+
+.s_img {
+    border: 1px solid #eee;
+}
+
+.wrap_top {
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.wrap_topl {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.wrap_top span {
+    position: absolute;
+    top: 20px;
+}
+
+.tubiao {
+    background: #f56293;
+    color: white!important;
+    line-height: 20px;
+    padding: 0 2px;
+}
+
+.tubiao3 {
+    background: #0dc3ce;
+    color: white!important;
+    line-height: 20px;
+    padding: 0 2px;
+}
+
+.tubiao4 {
+    background: #aa72d2;
+    color: white!important;
+    line-height: 20px;
+    padding: 0 2px;
+}
+
+.tubiao6 {
+    background: #97b921;
+    color: white!important;
+    line-height: 20px;
+    padding: 0 2px;
+}
+
+.tubiao8 {
+    background: #b58571;
+    color: white!important;
+    line-height: 20px;
+    padding: 0 2px;
+}
+
+.tubiao9 {
+    background: #52a0ea;
+    color: white!important;
+    line-height: 20px;
+    padding: 0 2px;
+}
+
+.t_span {
+    background: url(../image/img_redd.png) no-repeat 0 12px;
+    background-size: 17px 22px;
+    width: 17px;
+    height: 34px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: white;
+}

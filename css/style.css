@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+@media screen and (max-width:1000px) {
+    .wrapper {
+        width: 1000px;
+    }
+    #top {
+        width: 1000px;
+    }
+    #main {
+        width: 998px;
+    }
+    #section {
+        width: 998px;
+    }
+}
+
+@media screen and (max-width:1349px) and (min-width:1001px) {}
+
+@media screen and (min-width:1350px) {
+    .wrapper {
+        width: 1350px;
+    }
+    #top {
+        width: 1350px;
+    }
+    #main {
+        width: 1348px;
+    }
+    #section {
+        width: 1348px;
+    }
+}
+
+.wrapper {
+    margin: 60px auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.header {
+    border-bottom: 2px solid #f40;
+}
+
+.header>li {
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header>li:hover {
+    background: #f40;
+    color: white;
+}
+
+.header>li.list-active {
+    background: #f40;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    padding-top: 30px;
+}
+
+table tr td {
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.second_wrap {
+    margin: 20px auto;
+}
+
+.second_tab li {
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.second_tab>li.oactive {
+    color: #f56293;
+    border-bottom: 2px solid #f56293;
+}
+
+.second_box {
+    width: 100%;
+    background: #fff;
+    padding-top: 30px;
+}
+
+.sec_box {
+    margin: 30px 0;
+}
